@@ -26,14 +26,14 @@
     },
     "settings": {
         "event_subscriptions": {
-            "request_url": "https://us-central1-extension-scraper.cloudfunctions.net/slack-demo-app",
+            "request_url": "https://<YOUR-PROJECT-ID>.cloudfunctions.net/slack-demo-app",
             "bot_events": [
                 "link_shared"
             ]
         },
         "interactivity": {
             "is_enabled": true,
-            "request_url": "https://us-central1-extension-scraper.cloudfunctions.net/slack-demo-app"
+            "request_url": "https://<YOUR-PROJECT-ID>.cloudfunctions.net/slack-demo-app"
         },
         "org_deploy_enabled": false,
         "socket_mode_enabled": false,
